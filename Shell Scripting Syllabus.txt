@@ -1,0 +1,51 @@
+Syllabus 
+
+Section 1 – (Lab Setup)
+•	What is Virtual Box?
+•	Downloading and installing Virtual Box
+•	Creating first virtual machine
+•	Linux installation
+
+Section: 2 – (Shell Scripting Basics)
+•	What is Kernel?
+•	What is a Shell?
+•	Shell Scripting?
+•	Type of Shells
+•	Starting a Shell
+•	How to Run a Shell Script
+
+Section: 3 – (Scripting Standards)
+•	Naming Convention
+•	Script File Permissions
+•	Shell Script Format
+•	Sequence of Script Execution
+
+Section: 4 – (Basic Shell Scripts)
+•	Creating 1st script
+•	Script to run basic tasks
+•	Defining variable
+•	Input/output script
+•	Conditions/If else statement scripts
+•	Case statement scripts
+•	For loop scripts
+•	Do-while scripts
+•	Exist Status
+•	Handouts
+
+Section: 5 – (Real Life Scripts)
+•	Accessing data from files
+•	Check remote servers connectivity
+•	Script for scheduling and notification
+•	Script to delete old files
+•	Backup filesystem
+•	For loops scripts for file system – 1
+•	For loops scripts for file system – 2
+•	Copy files to remote hosts
+•	User directory assignment
+•	List of users logged in by date
+•	Central logging (rsyslog) script
+•	Script for user account management
+•	Disable inactive users
+•	Check process status and killing it
+•	Status on total number of files
+•	Script to create system inventory
