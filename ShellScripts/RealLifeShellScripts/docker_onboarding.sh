@@ -1,4 +1,7 @@
 #!/bin/bash
+# Author: Md Saif Zaman
+# Purpose: Docker Onboarding Script
+# Date: Jan 24, 2024
 
 # The following command uninstalls all conflicting packages.
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
