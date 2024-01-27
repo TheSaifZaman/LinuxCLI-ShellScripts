@@ -18,9 +18,9 @@ if [ $? -eq 0 ]
     echo Backup was created
     echo
     echo Archiving backup
-    
+
     # Send the file to right path
-    scp /tmp/backup.tar.gz root@192.168.1.x:/path
+    # scp /tmp/backup.tar.gz root@192.168.1.x:/path
 else
     echo Backup failed
 fi
