@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author: Md Saif Zaman
-# Purpose: Central Logging
+# Purpose: Logging Error Message
 # Date: Jan 26, 2024
 
 tail -fn0 /var/log/messages | while read line # f for live incoming traffic, n0 for latest new incoming messgae
