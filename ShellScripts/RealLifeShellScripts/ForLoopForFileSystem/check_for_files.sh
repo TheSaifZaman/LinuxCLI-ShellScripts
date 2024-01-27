@@ -1,9 +1,21 @@
 #!/bin/bash
 # Author: Md Saif Zaman
-# Purpose: Rename all *.txt files extension to none
+# Purpose: List of files you are curious about
 # Date: Jan 26, 2024
 
-for filename in *.txt
+FILES="/etc/passwd
+/etc/group
+/etc/shadow
+/etc/nsswitch.conf
+/etc/sshd_ssh_config
+/etc/fake"
+
+echo
+for file in $FILES
 do
-	mv $filename ${filename%.txt}.none # % here is a wild card sign
+	if [ ! -e "$file" ]	# Check if file exists.
+		then
+		echo $file = does not exist
+		echo
+	fi
 done
